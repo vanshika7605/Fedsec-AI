@@ -1,0 +1,45 @@
+# Python byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Raw Log Datasets (Large binary/text logs & unmasked data)
+data/mail.cup.com/
+data/mail.cup.com-labels/
+*.log
+
+# Generated Pipeline & Data Artifacts (Re-creatable outputs)
+data/artifacts/
+*.pkl
+
+# Trained PyTorch Model Checkpoints & Weights
+*.pt
+*.pth
+*.onnx
+*.safetensors
+*.bin
+
+# Downloaded metadata & external dataset records
+5789064.json
+
+# Environment variables & credentials
+.env
+.env.*
+
+# IDE & Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
